@@ -1,0 +1,343 @@
+#_profilesViewWelcome_div {
+  display: none;
+}
+
+.lotusWrapper {
+  display: none
+}
+
+/** Heading **/
+
+
+.lotusui30 .lotusTitleBar2 {
+  padding-bottom: 0;
+}
+
+.lotusWrapper .lotusHeading {
+  display: none;
+}
+
+
+/** Profile Photo **/
+
+.lotusui .lotusColLeft .lconnProfilePortrait {
+  width: 138px;
+  border: 5px solid #0b7180;
+  margin-top: -20px;
+}
+
+/** Main section **/
+
+#lotusMain, #lotusFrame {
+  background: #f4f4f4;
+}
+
+
+/** Chunk **/
+
+.lotusui30_layout .lotusColLeft .lotusSection,
+.lotusui30_layout .lotusColLeft .lotusTips,
+.lotusui30_layout .lotusColLeft .lotusWidget,
+.lotusui30_layout .lotusColLeft .lotusWidget2,
+.lotusui30_layout .lotusColRight .lotusInfoBox, .lotusui30_layout .lotusColRight .lotusSection, .lotusui30_layout .lotusColRight .lotusSection2, .lotusui30_layout .lotusColRight .lotusTips, .lotusui30_layout .lotusColRight .lotusWidget, .lotusui30_layout .lotusColRight .lotusWidget2
+{
+  margin: 0;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.lotusWidget2 {
+  padding-bottom: 25px!important;
+  margin-bottom: 35px!important;
+}
+
+.lotusui30 #socialTagsSubArea {
+  padding: 0 20px;
+}
+
+.lotusChunk {
+  padding-top: 10px!important;
+}
+
+/** Chunk heading **/
+
+.lotusui30 .lotusColLeft .dijitTitlePaneTitle,
+.lotusui30 .lotusColLeft .lotusSection h2,
+.lotusui30 .lotusColLeft .lotusSection2 .lotusHeading,
+.lotusui30 .lotusColLeft .lotusWidget h2,
+.lotusui30 .lotusColLeft .lotusWidget2 h2,
+.lotusui30 .lotusColRight .dijitTitlePaneTitle,
+.lotusui30 .lotusColRight .lotusSection h2,
+.lotusui30 .lotusColRight .lotusWidget h2,
+.lotusui30 .lotusColRight .lotusWidget2 h2 {
+  border-bottom: 1px solid #e8e8e8;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.lotusWidget2 h2::before {
+  content: '';
+  height: 12px; width: 18px;
+  display:block;
+			background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSItNDgxLjQgMjc5LjYgMTAuNCAyLjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTQ4MS40IDI3OS42IDEwLjQgMi40OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHRpdGxlPk1vcmU8L3RpdGxlPjxnPjxjaXJjbGUgY3g9Ii00NzYuMiIgY3k9IjI4MC44IiByPSIxLjIiLz48Y2lyY2xlIGN4PSItNDcyLjIiIGN5PSIyODAuOCIgcj0iMS4yIi8+PGNpcmNsZSBjeD0iLTQ4MC4yIiBjeT0iMjgwLjgiIHI9IjEuMiIvPjwvZz48L3N2Zz4=);;
+  background-position: center bottom!important;
+  background-repeat: no-repeat!important;
+  float: right;
+  margin-right: 10px
+}
+
+.lotusActionMenu {
+  display: none
+}
+
+/** Columns **/
+
+.lotusui30_layout .lotusColLeft, .lotusui30_layout .lotusColRight {
+  width: 350px;
+}
+
+.lotusui30_layout .lotusColLeft:after {
+  display: none;
+}
+
+.lotusui30_layout .lotusColLeft {
+  background: #f4f4f4;
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.lotusui30_layout .lotusColRight {
+  margin-right: 16px;
+  margin-left: 30px;
+  margin-top: 332px;
+}
+
+/** People Widget **/
+.lotusNetworkPerson {
+  height: 110px;
+  width: 64px;
+  margin-right: 4px;
+  margin-left: 3px
+}
+
+.lotusNetworkPerson:nth-child(4), .lotusNetworkPerson:nth-child(8), .lotusNetworkPerson:nth-child(12) {
+  margin-right:0;
+}
+
+.lotusNetworkPerson .lotusAltText {
+  display: block!important;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lotusNetworkPerson a.lotusPerson img {
+  height: 50px!important;
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+
+/** Updates section **/
+
+#lconn_tabsWidget1_CenterTabContent {
+    margin-top: 277px;
+}
+
+#UpdatesSection {
+  background: #fff;
+  padding: 20px 0 0;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
+  background:#fff;
+}
+
+#UpdatesSection::before {
+  content: 'Recent Updates';
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  margin-top:-5px;
+}
+
+#UpdatesSection .lotusInlinelist {
+  padding: 0 20px;
+}
+
+.lconnRTE {
+  padding: 20px 20px;
+}
+
+#tabsWidget1_widgetId_moreActions {
+  display:none!important;
+}
+
+.lotusui30 .lotusFeeds a.lotusFeed {
+  background: none;
+}
+
+.filterAreaInner {
+  display:none;
+}
+
+#shareboxContainer {
+  margin-bottom: -20px!important
+}
+
+.pagingHandler, .pagingHandler * {
+  border: none!important;
+  margin: 0!important;
+  border-radius: 0!important;
+}
+
+/** Center sections **/
+
+#contactInfoSection, #backgroundInfoSection,
+#filesReaderSection {
+  padding: 10px 20px 25px;
+  background: #fff;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/** New Menu section **/
+.lotusColLeft {
+    margin-top: 185px
+}
+
+.lotusColRight {
+  margin-top: 343px
+}
+
+#lotusMain::before {
+  content: '';
+  width: 100%;
+  height: 192px;
+  display: block;
+  background: url(http://192.168.0.17:8080/DEMO%20Greenwell_Profiles_Cover_Photo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-bottom: 120px solid #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+#profileHeader {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+#businessCardDetails {
+  position: absolute;
+}
+
+#businessCardActions {
+  margin-top: 105px
+}
+
+.lotusActionBar{
+  position: absolute!important;
+  width: 100px;
+  margin-top: 55px
+}
+
+.lotusui30 .lotusBtn {
+  margin-right: 20px;
+}
+
+.lotusui30 #moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {
+  margin-right: 0;
+}
+
+#lconn_profiles_actionBar_ActionBar_0 {
+  float: right;
+  margin-right: 40px;
+}
+
+#lconn_tabsWidget1_CenterTabsDiv {
+  top: 245px
+}
+
+.lotusui30 .lotusTabContainer {
+  border: none;
+}
+
+.lotusui30 .lotusTabs li {
+  margin-right: 48px
+}
+
+
+#tabsWidget1_widgetId_container li a {
+   padding: 16px 0;
+}
+
+.lotusSection2 {
+  width: 138px;
+  position: absolute;
+  left: 0px
+}
+
+#businessCardContent {
+  top: 190px;
+  left: 220px
+}
+
+
+#businessCardDetails {
+  top: 210px;
+  left: 220px;
+}
+
+#awarenessArea, #businessCardDetails a, #connectionIndicator, a.menu_drop_icon, .lotusAltText {
+  display:none!important;
+}
+
+#profilePaneLeft .lotusSection2 {
+  margin-bottom: 10px
+}
+
+#icSearchPaneButton {
+  top: 200px!important;
+  z-index: 100!important;
+}
+
+/** My profile view **/
+#_profilesMyViewWelcome_div {
+  display: none;
+}
+
+.lotusui .lotusColLeft .lconnProfilePortrait {
+  height: 138px;
+  width: 138px;
+}
+
+#profilePaneLeft .lotusSection2 #editProfileButtonDiv {
+  position:absolute;
+  top: -138px;
+  right: -350px;
+  z-index: 5;
+}
