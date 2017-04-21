@@ -46,7 +46,7 @@ if(typeof(dojo) != "undefined") {
 
                 // example customization of the "Share something" title...
                 var shareSomethingTitle = dojo.query("span.shareSome-title").style("background-color", "#ff0000");
-				dojo.query("span.shareSome-title").html="Hello World Padraic test!";
+				dojo.query("span.shareSome-title").html="Hello World Ted test!";
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
