@@ -45,11 +45,11 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 
                 // example customization of the "Share something" title...
-                var businessCardDiv = document.getElementById("businessCardDetails");
+                var emailRef= document.getElementsByClassName("bidiAware")[3];
                 var watsonTag = document.createElement('a');
                 watsonTag.setAttribute('href',"http://www.watsonwork.me/apenrose@ie.ibm.com");
                 watsonTag.innerHTML = "</br>Direct Message to IBM Watson Workspace";
-                businessCardDiv.appendChild(watsonTag);
+                emailRef.appendChild(watsonTag);
                 
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
