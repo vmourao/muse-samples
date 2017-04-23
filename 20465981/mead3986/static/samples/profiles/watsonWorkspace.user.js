@@ -45,8 +45,12 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 
                 // example customization of the "Share something" title...
-                var shareSomethingTitle = dojo.query("span.shareSome-title").style("background-color", "#ff0000");
-				dojo.query("span.shareSome-title")[0].textContent="Workshop Status";
+                var businessCardDiv = document.getElementById("businessCardDetails");
+                var watsonTag = document.createElement('a');
+                watsonTag.setAttribute('href',"http://www.watsonwork.me/apenrose@ie.ibm.com");
+                watsonTag.innerHTML = "</br>Direct Message to IBM Watson Workspace";
+                businessCardDiv.appendChild(watsonTag);
+                
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
