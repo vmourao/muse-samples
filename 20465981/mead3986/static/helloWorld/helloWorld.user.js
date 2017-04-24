@@ -46,6 +46,7 @@ if(typeof(dojo) != "undefined") {
 
                 // example customization of the "Share something" title...
                 var shareSomethingTitle = dojo.query("span.shareSome-title").style("background-color", "#ff0000");
+                // add logged in username
 				dojo.query("span.shareSome-title")[0].textContent=lconn.homepage.userName;
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
