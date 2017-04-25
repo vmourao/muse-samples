@@ -1,5 +1,5 @@
-.ics-scbanner {
-background-image: url("/acme.jpg");
-height: image_heightpx;
-width: image_widthpx;
+.ics-scbanner.isfixed  {
+background-image: url("/acme.jpg"); !important
+height: image_heightpx; !important
+width: image_widthpx; !important
 }
