@@ -1,5 +1,5 @@
 .ics-scbanner hikari isfixed {
-background-image: url("/acme.jpg"); !important
-height: image_heightpx; !important
-width: image_widthpx; !important
+background-image: url("/acme.jpg") !important;
+height: image_heightpx !important;
+width: image_widthpx !important;
 }
