@@ -1,0 +1,5 @@
+.lotusui30 .lotusBanner .lotusLogo {
+background-image: url("/acme.jpg");
+height: image_heightpx;
+width: image_widthpx;
+}
