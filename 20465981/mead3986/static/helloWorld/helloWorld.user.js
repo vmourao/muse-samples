@@ -46,7 +46,8 @@ if(typeof(dojo) != "undefined") {
 
                 // example customization of the "Updates" title...
                 var updatesDescription = document.getElementById("asDesc");
-                updatesDescription.textContent="Hello Muse: View/Refresh updates for people and things you are following, and responses to your content";
+                var orginalText = updatesDescription.textContent;
+                updatesDescription.textContent="Hello Muse: "+orginalText;
                 updatesDescription.style="color:#ff0000";
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
