@@ -45,9 +45,9 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 
                 // example customization of the "Share something" title...
-                var shareSomethingTitle = dojo.query("span.shareSome-title").style("background-color", "#ff0000");
-                // add logged in username
-				dojo.query("span.shareSome-title")[0].textContent="Hello "+lconn.homepage.userName+" -";
+                var updatesDescription = document.getElementById("asDesc");
+                updatesDescription.textContent="Hello Muse: View/Refresh updates for people and things you are following, and responses to your content";
+                updatesDescription.style("background-color", "#ff0000");
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
