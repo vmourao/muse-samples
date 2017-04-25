@@ -47,7 +47,7 @@ if(typeof(dojo) != "undefined") {
                 // example customization of the "Updates" title...
                 var updatesDescription = document.getElementById("asDesc");
                 updatesDescription.textContent="Hello Muse: View/Refresh updates for people and things you are following, and responses to your content";
-                updatesDescription.style("color", "#ff0000");
+                updatesDescription.style="color:#ff0000";
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
