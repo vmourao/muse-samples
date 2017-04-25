@@ -49,11 +49,8 @@ if(typeof(dojo) != "undefined") {
                 var originalText = updatesDescription.textContent;
                 updatesDescription.textContent="Hello Muse: "+originalText;
                 updatesDescription.style="color:#ff0000";
-                // ... more of your own customization code here please :-) let's see what you come up with!! ...
                 
-                // example customization of the "Share something" title...
-                dojo.query("span.shareSome-title")[0].textContent=
-                	   "Hello "+lconn.homepage.userName+" -";
+                // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
