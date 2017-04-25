@@ -48,7 +48,7 @@ if(typeof(dojo) != "undefined") {
                 var shareSomethingTitle = dojo.query("span.shareSome-title").style("background-color", "#ff0000");
                 // add logged in username
 				dojo.query("span.shareSome-title")[0].textContent="Hello "+lconn.homepage.userName+" -";
-                // ... more of your own customization code here please :-) let's see what you come up with!! ...
+                // ... more of your own customization code here please :-) let's see what you come up with!! 
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
