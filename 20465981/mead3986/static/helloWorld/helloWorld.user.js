@@ -45,10 +45,10 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 
                 // example customization of the "Updates" title...
-                var updatesDescription = document.getElementById("asDesc");
-                var originalText = updatesDescription.textContent;
-                updatesDescription.textContent="Hello Muse: "+originalText;
-                updatesDescription.style="color:#ff0000";
+                //var updatesDescription = document.getElementById("asDesc");
+                //var originalText = updatesDescription.textContent;
+                //updatesDescription.textContent="Hello Muse: "+originalText;
+                //updatesDescription.style="color:#ff0000";
                 
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
