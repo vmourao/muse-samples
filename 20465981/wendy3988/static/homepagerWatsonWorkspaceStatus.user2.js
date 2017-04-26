@@ -34,10 +34,10 @@
                 _logger(data);
                 XMLHttpRequest({
                     method: 'POST',
-                    url: 'https://489ea395.ngrok.io/webhook1',
+                    url: '/files/muse-static/workspace?webhook1',
                     data,
                     headers: {
-                        'Content-Type' : 'application/json; charset=UTF-8'
+                        'Content-Type' : 'application/json; charset=UTF-8', "muse-workspace":"gateway"
                     },
                     onload: res => _logger(res)
                 });
