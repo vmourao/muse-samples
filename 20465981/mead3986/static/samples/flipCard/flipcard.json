@@ -4,11 +4,11 @@
       "application": "Flip Card Sample",
       "payload": {
         "match": {
-          "user-name": "Mead Manchini",
+          "user-name": "Your Name",
 		  "url":"communities"
         },
         "include-files": [
-          "samples/flipcard/commListCardsFlipStyle.user.js"
+          "samples/flipCard/commListCardsFlipStyle.user.js"
         ]
       },
       "name": "commListCardsFlipStyle Extension",
