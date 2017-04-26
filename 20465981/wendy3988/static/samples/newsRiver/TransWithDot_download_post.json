@@ -1,0 +1,80 @@
+{
+  "extensions": [
+    {
+      "path": "communities.widgetPalette",
+      "ext_id": "com.ibm.verse.App49.extqa",
+      "application": "Some Verse App49",
+      "payload": {
+        "linkText": "%nls:ext_linkText",
+        "url": "http://something.example.com"
+      },
+      "translations": {
+        "": {
+          "ext_linkText": "[ English | Verse App49 Extension Link Text ~~~~~~~~~~~ ]",
+          "ext_description": "[English | Verse App49 Extension that tests having dot in translation key ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ]",
+          "ext_title": "[ English | Verse App49 Extension ~~~~~~~~~~~ ]"
+        },
+        "de": {
+          "ext_linkText": "[de German | Verse App49 Extension Link Text ~~~~~~~~~~~ ]",
+          "ext_description": "[de German | Verse App49 Extension that tests having dot in translation key ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ]",
+          "ext_title": "[de German | Verse App49 Extension ~~~~~~~~~~~ ]"
+        }
+      },
+      "name": "Verse App49 ExtQA",
+      "description": "%nls:ext_description",
+      "id": "c27366a6-3568-4b21-94e9-734c1de6da3c",
+      "type": "ibm.canvas.app",
+      "title": "%nls:ext_title"
+    },
+    {
+      "path": "communities.widgetPalette",
+      "ext_id": "com.ibm.verse.App49.extqb",
+      "application": "Some Verse App49",
+      "payload": {
+        "linkText": "%nls:verse__app49__extqb",
+        "url": "http://something.example.com"
+      },
+      "translations": {
+        "": {
+          "verse_app49_extqb": "[English | Verse App49 ExtB tests conflicting names when replace dot with underscore ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ]",
+          "verse___app49___extqb": "[ English | Verse App49 ExtB ~~~~~~~~~~~ ]",
+          "verse__app49__extqb": "[ English | Verse App49 ExtB Link Text ~~~~~~~~~~~ ]"
+        },
+        "de": {
+          "verse_app49_extqb": "[de German | Verse App49 ExtB conflicting names when replace dot with underscore ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ]",
+          "verse___app49___extqb": "[de German | Verse App49 ExtB ~~~~~~~~~~~ ]",
+          "verse__app49__extqb": "[de German | Verse App49 ExtB Link Text ~~~~~~~~~~~ ]"
+        }
+      },
+      "name": "Verse App49 ExtQB",
+      "description": "%nls:verse_app49_extqb",
+      "id": "77960ef8-af1f-446e-adc0-037801b1767e",
+      "type": "ibm.canvas.app",
+      "title": "%nls:verse___app49___extqb"
+    }
+  ],
+  "payload": {
+    "linkText": "%nls:app_linkText",
+    "url": "http://something.example.com"
+  },
+  "translations": {
+    "": {
+      "app_title": "[ English | Verse App49 Application ~~~~~~~~~~~ ]",
+      "app_linkText": "[ English | Verse App49 Application Link Text ~~~~~~~~~~~ ]",
+      "app_description": "[ English | Verse App49 Application that tests having dot in translation key ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ]"
+    },
+    "de": {
+      "app_title": "[de German | Verse App49 Application ~~~~~~~~~~~ ]",
+      "app_linkText": "[de German | Verse App49 Application Link Text ~~~~~~~~~~~ ]",
+      "app_description": "[de German | Verse App49 Application that tests having dot in translation key ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ]"
+    }
+  },
+  "name": "Some Verse App49",
+  "description": "%nls:app_description",
+  "services": [
+    "Verse"
+  ],
+  "id": "224e188a-3d69-4ab7-a3dc-4b6759df9a77",
+  "title": "%nls:app_title",
+  "app_id": "com.ibm.Verse.App49"
+}
