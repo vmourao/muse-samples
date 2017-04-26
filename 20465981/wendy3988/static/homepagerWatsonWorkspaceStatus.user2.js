@@ -32,15 +32,20 @@
             if(text && text.length) {
                 const data = JSON.stringify({ email, text });
                 _logger(data);
-                XMLHttpRequest({
-                    method: 'POST',
-                    url: '/files/muse-static/workspace?webhook1',
-                    data,
-                    headers: {
-                        'Content-Type' : 'application/json; charset=UTF-8', "muse-workspace":"gateway"
-                    },
-                    onload: res => _logger(res)
-                });
+                var xhrArgs = {
+    		 url: "/files/muse-static/",
+    		 postData: data,
+    		 handleAs: "text",
+    		 headers: { "Content-Type": "text/plain", "muse-workspace":"gateway"},
+    		 load: function(data){
+    		       console.log(data)
+    		  },
+    		  error: function(error){
+    		    	console.log(error)
+    		  }
+    		}
+
+    	var deferred = dojo.xhrPost(xhrArgs);  
             }
         });
     };
