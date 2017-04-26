@@ -164,7 +164,7 @@ if(typeof(dojo) != "undefined") {
             // connect sort buttons to recreate the tiles
             // dojo.query("ul li a","lconn_communities_catalog_widgets_SortWidget_0").connect("click", createCommTiles);
             // connect table content changes to recreate the tiles
-            //dojo.subscribe(lconn.communities.catalog.DISPLAY_RESULTS_TOPIC, function(){ createCommTiles(); });
+            dojo.subscribe(lconn.communities.catalog.DISPLAY_RESULTS_TOPIC, function(){ createCommTiles(); });
           
             
             createCommTiles();
