@@ -165,7 +165,15 @@ if(typeof(dojo) != "undefined") {
             // dojo.query("ul li a","lconn_communities_catalog_widgets_SortWidget_0").connect("click", createCommTiles);
             // connect table content changes to recreate the tiles
             dojo.subscribe(lconn.communities.catalog.DISPLAY_RESULTS_TOPIC, function(){ createCommTiles(); });
-          
+            
+			
+            // grid vs list selector
+            dojo.place('<div id="viewControl" class="lotusViewControl lotusRight">'+
+              	    	   '<a id="viewControlTable" class="lotusSprite lotusView lotusDetailsOn" href="javascript:;" onclick="showTable();"><span class="lotusAltText ">Customizable</span></a>'+
+                	       '<a id="viewControlTiles" class="lotusSprite lotusView lotusTileOff"  href="javascript:;" onclick="showTiles();"><span class="lotusAltText lotusBold">List</span></a>'+
+                       '</div>',
+                       dojo.query("#mainContentDiv div.lotusActionBar.lotusBtnContainer")[0],
+                       "append");
             
             createCommTiles();
             if(dojo.cookie("commTiles") == "1") showTiles();
