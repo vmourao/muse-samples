@@ -1,10 +1,10 @@
 {
   "extensions": [
     {
-      "application": "Profiles Customization Sample",
+      "application": "[Your Name] Profiles Customization Sample",
       "payload": {
         "match": {
-          "user-name": "Your Name",
+          "user-name": "[Your Name] ",
           "url": "profiles"
         },
         "include-files": [
@@ -15,10 +15,10 @@
       "type": "com.ibm.profiles"
     }
   ],
-  "name": "Profiles Customization Sample",
-  "description": "Profiles Customization Sample",
+  "name": "[Your Name] Profiles Customization Sample",
+  "description": "[Your Name] Profiles Customization Sample",
   "services": [
     "Muse"
   ],
-  "title": "Profiles Customization Sample"
+  "title": "[Your Name] Profiles Customization Sample"
 }

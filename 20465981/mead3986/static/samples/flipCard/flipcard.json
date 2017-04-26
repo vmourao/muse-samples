@@ -1,10 +1,10 @@
 {
   "extensions": [
 	{
-      "application": "Flip Card Sample",
+      "application": "[Your Name] Flip Card Sample",
       "payload": {
         "match": {
-          "user-name": "Your Name",
+          "user-name": "[Your Name]",
 		  "url":"communities"
         },
         "include-files": [
@@ -15,10 +15,10 @@
       "type": "com.ibm.communities"
     }
   ],
-  "name": "Flip Card Sample",
-  "description": "FlipCard Customization Sample",
+  "name": "[Your Name] Flip Card Sample",
+  "description": "[Your Name] FlipCard Customization Sample",
   "services": [
     "Muse"
   ],
-  "title": "Hello World Homepage Customizations"
+  "title": "[Your Name] FlipCard Customization Sample"
 }
