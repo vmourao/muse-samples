@@ -51,7 +51,8 @@ if(typeof(dojo) != "undefined") {
                 updatesDescription.style="color:#ff0000";
                 
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
-
+		dojo.query("span.shareSome-title")[0].textContent= "Hello "+lconn.homepage.userName+" -"; 
+		    
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
