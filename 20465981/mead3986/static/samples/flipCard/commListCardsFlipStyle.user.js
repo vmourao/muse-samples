@@ -84,8 +84,7 @@ if(typeof(dojo) != "undefined") {
             };
             
             createCommTiles=function(){
-                if( dojo.hasClass("viewControlTiles", "lotusTileOff")) return; // if we are not displaying tiles, don't create them...
-                
+
 	            commTiles=dojo.byId("commTiles");
                 if( !commTiles){
 	                out=
@@ -167,12 +166,12 @@ if(typeof(dojo) != "undefined") {
             dojo.subscribe(lconn.communities.catalog.DISPLAY_RESULTS_TOPIC, function(){ createCommTiles(); });
             
             // grid vs list selector
-//            dojo.place('<div id="viewControl" class="lotusViewControl lotusRight">'+
-//              	    	   '<a id="viewControlTable" class="lotusSprite lotusView lotusDetailsOn" href="javascript:;" onclick="showTable();"><span class="lotusAltText ">Customizable</span></a>'+
-//                	       '<a id="viewControlTiles" class="lotusSprite lotusView lotusTileOff"  href="javascript:;" onclick="showTiles();"><span class="lotusAltText lotusBold">List</span></a>'+
-//                       '</div>',
-//                       dojo.query("#mainContentDiv div.lotusActionBar.lotusBtnContainer")[0],
-//                       "append");
+            dojo.place('<div id="viewControl" class="lotusViewControl lotusRight">'+
+              	    	   '<a id="viewControlTable" class="lotusSprite lotusView lotusDetailsOn" href="javascript:;" onclick="showTable();"><span class="lotusAltText ">Customizable</span></a>'+
+                	       '<a id="viewControlTiles" class="lotusSprite lotusView lotusTileOff"  href="javascript:;" onclick="showTiles();"><span class="lotusAltText lotusBold">List</span></a>'+
+                       '</div>',
+                       dojo.query("#mainContentDiv div.lotusActionBar.lotusBtnContainer")[0],
+                       "append");
             
             createCommTiles();
             if(dojo.cookie("commTiles") == "1") showTiles();
