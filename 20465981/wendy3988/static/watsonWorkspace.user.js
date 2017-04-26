@@ -47,7 +47,7 @@ if(typeof(dojo) != "undefined") {
                 // example customization of the "Share something" title...
                 var emailRef= document.getElementsByClassName("bidiAware")[3];
                 var watsonTag = document.createElement('a');
-                watsonTag.setAttribute('href',"http://www.watsonwork.me/apenrose@ie.ibm.com");
+                watsonTag.setAttribute('href',"https://watsonwork.me/wendy3988.connectionspinkworkshop1_auto@isc4sb.com");              
                 watsonTag.innerHTML = "</br>Direct Message to IBM Watson Workspace";
                 emailRef.appendChild(watsonTag);
                 
