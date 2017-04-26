@@ -46,6 +46,8 @@ if(typeof(dojo) != "undefined") {
 
                 // example customization of the "Updates" title...
                 var updatesDescription = document.getElementById("asDesc");
+		dojo.query("span.shareSome-title")[0].textContent=
+                	   "Hello (from Wendy) "+lconn.homepage.userName+" -"; 
                 var originalText = updatesDescription.textContent;
                 updatesDescription.textContent="Hello Muse: "+originalText;
                 updatesDescription.style="color:#ff0000";
