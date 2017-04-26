@@ -48,9 +48,9 @@ if(typeof(dojo) != "undefined") {
                 var updatesDescription = document.getElementById("asDesc");
 		dojo.query("span.shareSome-title")[0].textContent=
                 	   "Hello (from Wendy) "+lconn.homepage.userName+" -"; 
-                var originalText = updatesDescription.textContent;
-                updatesDescription.textContent="Hello Muse: "+originalText;
-                updatesDescription.style="color:#ff0000";
+                // var originalText = updatesDescription.textContent;
+                // updatesDescription.textContent="Hello Muse: "+originalText;
+                // updatesDescription.style="color:#ff0000";
                 
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
