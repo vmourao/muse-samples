@@ -44,9 +44,12 @@ if(typeof(dojo) != "undefined") {
             // before we proceed to customize the page...
             waitFor( function(){
 
-                // example customization of the "Share something" title...
-                var shareSomethingTitle = dojo.query("span.shareSome-title").style("background-color", "#ff0000");
-				dojo.query("span.shareSome-title").html="Hello World Brian test!";
+                // example customization of the "Updates" title...
+                var updatesDescription = document.getElementById("asDesc");
+                var originalText = updatesDescription.textContent;
+                updatesDescription.textContent="Hello Muse: "+originalText;
+                updatesDescription.style="color:#ff0000";
+                
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
 
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
