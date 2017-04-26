@@ -44,22 +44,8 @@ if(typeof(dojo) != "undefined") {
             // before we proceed to customize the page...
             waitFor( function(){
 
-                // example customization of the "Updates" title...
-<<<<<<< Upstream, based on origin/master
-                var updatesDescription = document.getElementById("asDesc");
-                var originalText = updatesDescription.textContent;
-                updatesDescription.textContent="Hello Muse Gary: "+originalText;
-                updatesDescription.style="color:#ff0000";
-=======
-                //var updatesDescription = document.getElementById("asDesc");
-                //var originalText = updatesDescription.textContent;
-                //updatesDescription.textContent="Hello Muse: "+originalText;
-                //updatesDescription.style="color:#ff0000";
->>>>>>> e242c0f update samples
-                
                 // ... more of your own customization code here please :-) let's see what you come up with!! ...
-		dojo.query("span.shareSome-title")[0].textContent= "Hello Gary "+lconn.homepage.userName+" -"; 
-		    
+            	
                // wait until the "loading..." node has been hidden, indicating that we have loaded content.
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
