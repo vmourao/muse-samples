@@ -8,7 +8,7 @@
           "url": "homepage"
         },
         "include-files": [
-          "samples/newsRiverSectioned/newsRiverSectioned.user.js"
+          "samples/newsRiver/newsRiverSectioned.user.js"
         ]
       },
       "name": "[Your Name] News River Sectioned Extension",
