@@ -1,0 +1,24 @@
+{
+  "extensions": [
+	{
+      "application": "Flip Card Sample",
+      "payload": {
+        "match": {
+          "user-name": "Mead Manchini",
+		  "url":"communities"
+        },
+        "include-files": [
+          "samples/flipcard/commListCardsFlipStyle.user.js"
+        ]
+      },
+      "name": "commListCardsFlipStyle Extension",
+      "type": "com.ibm.communities"
+    }
+  ],
+  "name": "Flip Card Sample",
+  "description": "FlipCard Customization Sample",
+  "services": [
+    "Muse"
+  ],
+  "title": "Hello World Homepage Customizations"
+}
