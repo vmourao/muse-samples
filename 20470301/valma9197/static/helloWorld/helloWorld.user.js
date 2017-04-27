@@ -49,7 +49,7 @@ if(typeof(dojo) != "undefined") {
                 //more of your own customization code here please :-) 
             	//let's see what you come up with!! ...
             	
-
+		alert("Hello there!");
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
       } catch(e) {
