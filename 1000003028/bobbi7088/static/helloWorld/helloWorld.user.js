@@ -51,11 +51,10 @@ if(typeof(dojo) != "undefined") {
             	
 
                 myWidget = '<div id="myMyMuseWidget"><h1>Hello ' + person.name + '</h1></div>'
-                linkedInWidget = '<script src="//platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/dvistalli" data-format="inline" data-related="false"></script>'
+                youTubeWidget = '<iframe width="360" height="203" src="https://www.youtube.com/embed/fJ0qKxHLN9Q" frameborder="0" allowfullscreen></iframe>'
 
-                nameNode = dojo.place(myWidget, "hpplaceholder_right_top", "after");
-		dojo.place(linkedInWidget, nameNode, "after");
-                // dojo.place(linkedInWidget, "hpplaceholder_right_top", "after");
+                dojo.place(myWidget, "hpplaceholder_right_top", "after");
+                dojo.place(youTubeWidget, "hpplaceholder_right_top", "after");
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
