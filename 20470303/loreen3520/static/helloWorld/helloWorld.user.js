@@ -43,9 +43,12 @@ if(typeof(dojo) != "undefined") {
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
             // before we proceed to customize the page...
             waitFor( function(){
+		    
+		    var target = dojo.query("span.shareSome-title")[0];
                 
-		dojo.query("span.shareSome-title")[0].textContent=
+		target.textContent=
                      "Hello "+lconn.homepage.userName+" -";    
+		    target.style = 'background: hotpink!important;';
             	
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
