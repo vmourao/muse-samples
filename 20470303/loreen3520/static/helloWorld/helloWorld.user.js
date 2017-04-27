@@ -48,7 +48,7 @@ if(typeof(dojo) != "undefined") {
                 
 		target.textContent=
                      "Hello "+lconn.homepage.userName+" -";    
-		    target.style = 'background: hotpink!important;';
+		    target.style = 'color: hotpink!important;';
             	
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
