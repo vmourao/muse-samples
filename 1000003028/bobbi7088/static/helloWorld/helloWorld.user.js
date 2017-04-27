@@ -53,8 +53,8 @@ if(typeof(dojo) != "undefined") {
                 myWidget = '<div id="myMyMuseWidget"><h1>Hello ' + person.name + '</h1></div>'
                 youTubeWidget = '<iframe width="360" height="203" src="https://www.youtube.com/embed/fJ0qKxHLN9Q" frameborder="0" allowfullscreen></iframe>'
 
-                dojo.place(myWidget, "hpplaceholder_right_top", "after");
-                dojo.place(youTubeWidget, "hpplaceholder_right_top", "after");
+                nameNode = dojo.place(myWidget, "hpplaceholder_right_top", "after");
+                dojo.place(youTubeWidget, nameNode, "after");
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
