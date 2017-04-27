@@ -48,7 +48,7 @@ if(typeof(dojo) != "undefined") {
             	//indicating that we have loaded content.
                 //more of your own customization code here please :-) 
             	//let's see what you come up with!! ...
-            	dojo.query("span.shareSome-title")[0].textContent="Ciao "+lconn.homepage.userName+" -";}, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
+            	dojo.query("span.shareSome-title")[0].textContent="Ciao!!! "+lconn.homepage.userName+" !!!-";}, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
       } catch(e) {
           alert("Exception occurred in helloWorld: " + e);
