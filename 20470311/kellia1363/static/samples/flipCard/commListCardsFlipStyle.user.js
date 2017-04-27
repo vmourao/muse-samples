@@ -33,6 +33,8 @@
 
 if(typeof(dojo) != "undefined") {
     
+	
+	//check for existence of element we want to update on the page
     var waitFor = function(callback, elXpath, maxInter, waitTime) {
         if(!maxInter) var maxInter = 20;  // number of intervals before expiring
         if(!waitTime) var waitTime = 100;  // 1000=1 second
@@ -147,8 +149,6 @@ if(typeof(dojo) != "undefined") {
                 dojo.place( '<div id="commTiles" '+(dojo.hasClass("viewControlTiles","lotusTileOn")?'':'class="lotusHidden"')+'>'+tiles+'</div>', dojo.query("#lconn_communities_catalog_widgets_ResultsDisplayWidget_0 table")[0], "before");  
             };
 
-            // connect sort buttons to recreate the tiles
-            // dojo.query("ul li a","lconn_communities_catalog_widgets_SortWidget_0").connect("click", createCommTiles);
             // connect table content changes to recreate the tiles
             dojo.subscribe(lconn.communities.catalog.DISPLAY_RESULTS_TOPIC, function(){ createCommTiles(); });
             
