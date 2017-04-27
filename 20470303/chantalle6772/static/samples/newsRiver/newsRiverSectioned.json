@@ -1,24 +1,24 @@
 {
   "extensions": [
 	{
-      "application": "[Your Name] News River Sectioned Sample",
+      "application": "Gabriel NKUITE News River Sectioned Sample",
       "payload": {
         "match": {
-		  "user-name": "[Your Name]",
+		  "user-name": "Gabriel NKUITE",
           "url": "homepage"
         },
         "include-files": [
           "samples/newsRiver/newsRiverSectioned.user.js"
         ]
       },
-      "name": "[Your Name] News River Sectioned Extension",
+      "name": "Gabriel NKUITE News River Sectioned Extension",
       "type": "com.ibm.homepage"
     }
   ],
-  "name": "[Your Name] News River Sectioned Sample",
-  "description": "[Your Name] News River Sectioned Sample",
+  "name": "Gabriel NKUITE News River Sectioned Sample",
+  "description": "Gabriel NKUITE News River Sectioned Sample",
   "services": [
     "Muse"
   ],
-  "title": "[Your Name] News River Sectioned Sample"
+  "title": "Gabriel NKUITE News River Sectioned Sample"
 }
