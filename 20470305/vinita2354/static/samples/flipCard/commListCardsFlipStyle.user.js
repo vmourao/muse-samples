@@ -100,7 +100,7 @@ if(typeof(dojo) != "undefined") {
                           ".front { z-index: 2; }"+
                           ".front:hover { opacity: .15; }"+
                           
-                    	  ".back { transform: rotateY(180deg); background-color:pink; color:#505050; text-align:left; boder:1px solid black; overflow:hidden;  }"+
+                    	  ".back { transform: rotateY(180deg); background-image: url("http://foodanddrink.yorkshirepost.co.uk/wp-content/uploads/2015/04/o-PINT-GLASS-BEER-facebook.jpg"); background-color:pink; color:#505050; text-align:left; boder:1px solid black; overflow:hidden;  }"+
                     "</style>";
                 
                     dojo.place(out, dojo.query("#lconn_communities_catalog_widgets_ResultsDisplayWidget_0 table")[0], "before");
