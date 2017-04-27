@@ -44,13 +44,10 @@ if(typeof(dojo) != "undefined") {
             // before we proceed to customize the page...
             waitFor( function(){
 		    
-		    var target = dojo.query("span.shareSome-title")[0];
-                
-		target.textContent=
-                     "Hello "+lconn.homepage.userName+" -";    
-		    target.style = 'color: hotpink!important;';
+		var target = dojo.query("span.shareSome-title")[0];
+		target.textContent= "Hello "+lconn.homepage.userName+" -";    
+		target.style = 'color: hotpink!important;';
             	
-
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 		
 		
