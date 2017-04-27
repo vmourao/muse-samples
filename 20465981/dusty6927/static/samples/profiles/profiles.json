@@ -4,14 +4,14 @@
       "application": "[Your Name] Profiles Customization Sample",
       "payload": {
         "match": {
-          "user-name": "[Your Name] ",
+          "user-name": "[Your Name]",
           "url": "profiles"
         },
         "include-files": [
           "samples/profiles/profilesCustomization.js"
         ]
       },
-      "name": "Profiles Customization Extension",
+      "name": "[Your Name] Profiles Customization Extension",
       "type": "com.ibm.profiles"
     }
   ],

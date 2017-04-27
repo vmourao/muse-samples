@@ -43,15 +43,13 @@ if(typeof(dojo) != "undefined") {
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
             // before we proceed to customize the page...
             waitFor( function(){
-
-                // example customization of the "Updates" title...
-		dojo.query("span.shareSome-title")[0].textContent=
-                	   "Hello (from Wendy)"+lconn.homepage.userName+" -"; 
-
                 
-                // ... more of your own customization code here please :-) let's see what you come up with!! ...
+            	//wait until the "loading..." node has been hidden, 
+            	//indicating that we have loaded content.
+                //more of your own customization code here please :-) 
+            	//let's see what you come up with!! ...
+            	
 
-               // wait until the "loading..." node has been hidden, indicating that we have loaded content.
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
       } catch(e) {
