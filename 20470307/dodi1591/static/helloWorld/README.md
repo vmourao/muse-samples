@@ -1,3 +1,3 @@
-helloWorld
+# helloWorld
 
-Simple Hello World example for workshop
+- Simple Hello World example for workshop
