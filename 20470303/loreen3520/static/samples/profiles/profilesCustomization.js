@@ -61,8 +61,8 @@ if(typeof(dojo) != "undefined") {
             // before we proceed to customize the page...
             waitFor( function(){                
                 dojo.place(injectHtml,
-                    dojo.query("#widget-container-col3"),
-                    "last"
+                            dojo.byId("widget-container-col3").value
+                    "first"
                 );
 
             }, "#widget-container-col3");
