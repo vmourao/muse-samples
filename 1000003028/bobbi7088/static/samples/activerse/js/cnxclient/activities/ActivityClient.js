@@ -5,7 +5,7 @@ define(['jquery', './activityparser'], function ($, aParser) {
 
         constructor() {
             this.settings = {
-                url: '/cnxapi/activities/service/atom2/activities'
+                url: '/activities/service/atom2/activities'
             };
             this.state = {
                 activities: {},
