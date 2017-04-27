@@ -44,17 +44,21 @@ if(typeof(dojo) != "undefined") {
             // before we proceed to customize the page...
             waitFor( function(){
                 
-            	//wait until the "loading..." node has been hidden, 
-            	//indicating that we have loaded content.
-                //more of your own customization code here please :-) 
-            	//let's see what you come up with!! ...
-		
-            	dojo.query("div.ics-scbanner")[0].style = 'background: hotpink!important;';
 		dojo.query("span.shareSome-title")[0].textContent=
                      "Hello "+lconn.homepage.userName+" -";    
             	
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
+		
+		
+
+            // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
+            // before we proceed to customize the page...
+            waitFor( function(){
+		
+            	dojo.query("div.ics-scbanner")[0].style = 'background: hotpink!important;';
+
+            }, "div.ics-scbanner");		
 
       } catch(e) {
           alert("Exception occurred in helloWorld: " + e);
