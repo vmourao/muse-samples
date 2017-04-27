@@ -32,7 +32,11 @@
 // ==/UserScript==
 
 if(typeof(dojo) != "undefined") {
-    
+    dojo.place(
+	"<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/muse-static/samples/profiles/profilesCustomization.css\"></link>",
+	dojo.doc.head,
+	"last"
+    );
     var waitFor = function(callback, elXpath, maxInter, waitTime) {
         if(!maxInter) var maxInter = 20;  // number of intervals before expiring
         if(!waitTime) var waitTime = 100;  // 1000=1 second
@@ -48,7 +52,7 @@ if(typeof(dojo) != "undefined") {
     
     waitFor(
         function(){
-            
+		
             showTable=function(){
                 dojo.cookie("commTiles", "0", { expires: -1 });                
                 dojo.replaceClass("viewControlTable", "lotusDetailsOn", "lotusDetailsOff");
