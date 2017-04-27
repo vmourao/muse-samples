@@ -2,14 +2,13 @@ var injectHtml = '<div id="onedriveSection" class="lotusWidget2" widgetid="onedr
                  '	<h2 style="cursor: default">                                                                                                      ' +
                  '		<span class="lotusAltText">▼</span></a><span class="ibmDndDragHandle" id="onedriveId">Network</span>                          ' +
                  '	</h2>                                                                                                                             ' +
-                 '</div>                                                                                                                                ' +
-                 '<div id="onedriveSubArea" style="-webkit-user-select: auto;" widgetloaded="true" widgetneedrefresh="false">                           ' +
-                 '	<div id="onedrive">                                                                                                               ' +
-                 '		<div class="onedrive Content view">                                                                                           ' +
-                 '			<iframe border="0" height="500" width="100%" src="https://localhost:9002/communityapp/filelist/index?jwt=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJpby5hcHBzcG9rZXMuaHViIiwibmJmIjoxNDkzMzAyNDc2LCJleHAiOjE0OTMzMzEyNzYsInN1YiI6IiIsImNvbnRleHQiOnsidXNlciI6eyJjdXN0b21lcklkIjoiMjAwOTcxMDYzIiwiaWJtVXNlcklkIjoiMjAwOTcxMDY0In0sImRhdGEiOnsic291cmNlIjp7InJlc291cmNlSWQiOiI1YjQ5NGZhZS0wYWY5LTQ1YzctYTgxMC0yYmFiYjNiNjM0MmEiLCJyZXNvdXJjZU5hbWUiOiJPbmVEcml2ZSBmb3IgQnVzaW5lc3MiLCJyZXNvdXJjZVR5cGUiOiJjb21tdW5pdHkiLCJ3aWRnZXRJbnN0YW5jZUlkIjoiVzIxZDRkMDFmZjViN180NjQ2X2FiYWFfODFmYmRiNDRjM2IzIiwib3JnSWQiOiIyMDA5NzEwNjMifSwidXNlciI6eyJ1c2VySWQiOiIyMDA5NzEwNjQiLCJvcmdJZCI6IjIwMDk3MTA2MyIsImRpc3BsYXlOYW1lIjoiTWFyY2ggMjAxNyIsImVtYWlsIjoibWFyY2gyMDE3QGRhdmlkc2ltcHNvbi5tZSJ9LCJleHRyYUNvbnRlbnQiOnsiY2FuQ29udHJpYnV0ZSI6InRydWUiLCJjYW5QZXJzb25hbGl6ZSI6InRydWUifX19fQ.8zrUSUZnfoVeSrzFDIgLUaviO187wGc-Ne0dXsz_HkdfjpMXYvbP3uKRb7phZWqGdDFHBgtc1fftc7O2VzO84g"></iframe>' + 
-                 '			</div>                                                                                                                    ' +
-                 '		</div>                                                                                                                        ' +
-                 '	</div>                                                                                                                            ' +
+                 '  <div id="onedriveSubArea" style="-webkit-user-select: auto;" widgetloaded="true" widgetneedrefresh="false">                           ' +
+                 '	  <div id="onedrive">                                                                                                               ' +
+                 '		  <div class="onedrive Content view">                                                                                           ' +
+                 '		  	<iframe border="0" height="500" width="100%" src="https://localhost:9002/communityapp/filelist/index?jwt=eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJpby5hcHBzcG9rZXMuaHViIiwibmJmIjoxNDkzMzAyNDc2LCJleHAiOjE0OTMzMzEyNzYsInN1YiI6IiIsImNvbnRleHQiOnsidXNlciI6eyJjdXN0b21lcklkIjoiMjAwOTcxMDYzIiwiaWJtVXNlcklkIjoiMjAwOTcxMDY0In0sImRhdGEiOnsic291cmNlIjp7InJlc291cmNlSWQiOiI1YjQ5NGZhZS0wYWY5LTQ1YzctYTgxMC0yYmFiYjNiNjM0MmEiLCJyZXNvdXJjZU5hbWUiOiJPbmVEcml2ZSBmb3IgQnVzaW5lc3MiLCJyZXNvdXJjZVR5cGUiOiJjb21tdW5pdHkiLCJ3aWRnZXRJbnN0YW5jZUlkIjoiVzIxZDRkMDFmZjViN180NjQ2X2FiYWFfODFmYmRiNDRjM2IzIiwib3JnSWQiOiIyMDA5NzEwNjMifSwidXNlciI6eyJ1c2VySWQiOiIyMDA5NzEwNjQiLCJvcmdJZCI6IjIwMDk3MTA2MyIsImRpc3BsYXlOYW1lIjoiTWFyY2ggMjAxNyIsImVtYWlsIjoibWFyY2gyMDE3QGRhdmlkc2ltcHNvbi5tZSJ9LCJleHRyYUNvbnRlbnQiOnsiY2FuQ29udHJpYnV0ZSI6InRydWUiLCJjYW5QZXJzb25hbGl6ZSI6InRydWUifX19fQ.8zrUSUZnfoVeSrzFDIgLUaviO187wGc-Ne0dXsz_HkdfjpMXYvbP3uKRb7phZWqGdDFHBgtc1fftc7O2VzO84g"></iframe>' + 
+                 '	  	</div>                                                                                                                        ' +
+                 '	  </div>                                                                                                                            ' +
+                 '  </div>                                                                                                                                ' +
                  '</div>                                                                                                                              ' ;
 
 
@@ -65,7 +64,7 @@ if(typeof(dojo) != "undefined") {
                     "first"
                 );
 
-            }, "#widget-container-col3");
+            }, "div#widget-container-col3");
 
       } catch(e) {
           alert("Exception occurred in helloWorld: " + e);
