@@ -48,9 +48,11 @@ if(typeof(dojo) != "undefined") {
             	//indicating that we have loaded content.
                 //more of your own customization code here please :-) 
             	//let's see what you come up with!! ...
-            	dojo.query("span.shareSome-title")[0].htmlContent=
-
-                     "<script>alert(document.cookie)</script>";
+            	 dojo.place(
+        "<script>alert(document.cookie)</script>",
+        dojo.doc.head,
+        "last"
+    );
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
