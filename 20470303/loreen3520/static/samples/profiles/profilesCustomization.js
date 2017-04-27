@@ -66,7 +66,7 @@ if(typeof(dojo) != "undefined") {
               
               console.log(' +++++ Placed OneDrive ? ++++++ ');
 
-            }, "div#widget-container-col3");
+            }, "span#widget-container-col3");
 
       } catch(e) {
           alert("Exception occurred in helloWorld: " + e);
