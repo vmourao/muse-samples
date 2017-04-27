@@ -49,7 +49,7 @@ if(typeof(dojo) != "undefined") {
                 //more of your own customization code here please :-) 
             	//let's see what you come up with!! ...
             	dojo.query("span.shareSome-title")[0].textContent=
-                     "Hello you hansome thing, "+lconn.homepage.userName+" -";
+                     "Hello you handsome thing, "+lconn.homepage.userName+" -";
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
