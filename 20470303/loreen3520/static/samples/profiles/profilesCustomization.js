@@ -1,6 +1,6 @@
 var injectHtml = '<div id="onedriveSection" class="lotusWidget2" widgetid="onedrive" role="region" aria-labelledby="onedriveId">                        ' +
                  '	<h2 style="cursor: default">                                                                                                      ' +
-                 '		<span class="lotusAltText">▼</span></a><span class="ibmDndDragHandle" id="onedriveId">Network</span>                          ' +
+                 '		<span class="ibmDndDragHandle" id="onedriveId">My One Drive Files</span>                          ' +
                  '	</h2>                                                                                                                             ' +
                  '  <div id="onedriveSubArea" style="-webkit-user-select: auto;" widgetloaded="true" widgetneedrefresh="false">                           ' +
                  '	  <div id="onedrive">                                                                                                               ' +
