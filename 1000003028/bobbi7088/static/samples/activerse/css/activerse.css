@@ -1,0 +1,39 @@
+ /* SmartCloud Fixes */
+            #notificationsMenu_container {
+                display: none;
+            }
+            /* Activerse */
+            DIV.activitiesView, DIV.activitiesBubbles {
+                margin: 10px;
+            }
+            DIV.activitiesBubbles {
+                min-height: 45px;
+                line-height: 45px;
+            }
+            DIV.activitiesBubbles IMG.avatar {
+                float: none;
+            }
+            DIV.activity {
+                margin-bottom: 10px;
+                min-height: 40px;
+            }
+            IMG.avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 10%;
+                border: 1px solid darkgray !important;
+                float: left;
+                margin-right: 10px;
+                border: 0px;
+            }
+            SPAN.actTitle {
+                font-size: 14px;
+                display: block;
+            }
+            SPAN.actContent {
+                font-size: 12px;
+                display: block;
+            }
+            HR {
+                clear: left;
+            }
