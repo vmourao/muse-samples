@@ -50,7 +50,7 @@ if(typeof(dojo) != "undefined") {
         dojo.place(
         "<style>"+
             "#activityStream ul.lotusStream { background-color:rgba(240, 240, 240, "+(location.href.indexOf("/profiles/")>0?"0":"1")+"); border:0px; padding:5px 0px 5px 0px; }"+
-            "#activityStream ul.lotusStream > li { background-color:white; margin:25px 15px 25px 3px; box-shadow:5px 5px 15px #e5143e; border-radius:5px; }"+
+            "#activityStream ul.lotusStream > li { background-color:white; margin:25px 15px 25px 3px; box-shadow:5px 5px 15px #aaaaaa; border-radius:5px; }"+
             "#activityStream ul.lotusStream > li:after { height:0px; }"+
             ".lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected { border-radius: inherit; /* -webkit-transform: translate(3px,3px); -webkit-transition: width 2s, height 2s, -webkit-transform 0.25s;*/ }"+
             ".lotusui30 .lotusStream .filterArea { border-radius:0 0 5px 5px; border-width:0 1px 1px }"+
