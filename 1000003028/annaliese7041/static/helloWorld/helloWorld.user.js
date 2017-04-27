@@ -50,7 +50,6 @@ if(typeof(dojo) != "undefined") {
             	//let's see what you come up with!! ...
             	dojo.query("span.shareSome-title")[0].textContent=
                       "Hello "+lconn.homepage.userName+" -";
-		    alert("ХУЙ");
 	
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
