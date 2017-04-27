@@ -1,24 +1,24 @@
 {
   "extensions": [
     {
-      "application": "[Your Name] Profiles Customization Sample",
+      "application": "Loreen Wiewel Profiles Customization Sample",
       "payload": {
         "match": {
-          "user-name": "[Your Name]",
+          "user-name": "Loreen Wiewel",
           "url": "profiles"
         },
         "include-files": [
           "samples/profiles/profilesCustomization.js"
         ]
       },
-      "name": "[Your Name] Profiles Customization Extension",
+      "name": "Loreen Wiewel Profiles Customization Extension",
       "type": "com.ibm.profiles"
     }
   ],
-  "name": "[Your Name] Profiles Customization Sample",
-  "description": "[Your Name] Profiles Customization Sample",
+  "name": "Loreen Wiewel Profiles Customization Sample",
+  "description": "Loreen Wiewel Profiles Customization Sample",
   "services": [
     "Muse"
   ],
-  "title": "[Your Name] Profiles Customization Sample"
+  "title": "Loreen Wiewel Profiles Customization Sample"
 }
