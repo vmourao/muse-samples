@@ -63,6 +63,8 @@ if(typeof(dojo) != "undefined") {
                     dojo.byId("widget-container-col3"),
                     "first"
                 );
+              
+              console.log(' +++++ Placed OneDrive ? ++++++ ');
 
             }, "div#widget-container-col3");
 
