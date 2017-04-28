@@ -18,7 +18,7 @@ define(["vue"], function (Vue) {
         },
         data : function() {
             return {
-                serverBaseUrl : 'https://apps.ce.collabserv.com',
+                serverBaseUrl : 'https://apps.collabservintegration.com',
                 bubbles : [
                     { id: 1, text: "Daniele Vistalli", userid: "200305132" },
                     { id: 2, text: "Marco Merlo", userid: "200276273" }
