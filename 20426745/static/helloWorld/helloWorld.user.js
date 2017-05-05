@@ -50,7 +50,7 @@ if(typeof(dojo) != "undefined") {
             	//let's see what you come up with!! ...
             	                // example customization of the "Share something" title...
                 dojo.query("span.shareSome-title")[0].textContent=
-                	   "Hello "+lconn.homepage.userName+" -";
+                	   "Hellocccc "+lconn.homepage.userName+" -";
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
