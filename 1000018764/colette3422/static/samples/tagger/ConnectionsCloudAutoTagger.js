@@ -2,21 +2,6 @@
 (function() {
     'use strict';
 
-    // =====================================================================================
-    // | This user script enables Connections Cloud users to be able to generate keywords  |
-    // | (aka auto-tagging) for content that is allowed to be tagged in Connections Cloud. |
-    // | This script does not perform auto-tagging on user profiles currently because most |
-    // | Connections Cloud users do not fully provide information in their "Background" or |
-    // | provide other content that would enable auto-tagging.  The only user profile      |
-    // | generated content would be based on their activity stream and micro-blogging;     |
-    // | however that is not currently being implemented as part of this release.          |
-    // | This script also does not perform auto-tagging on Files since this would require  |
-    // | submitting the file and sending it to the Watson AlchemyAPI for analysis.  Another|
-    // | provided asset will be enabling this functionality.                               |
-    // |                                                   Scott Davis (Oct 19, 2016)      |
-    // =====================================================================================
-    // ------------------------------------ General Functions ------------------------------------
-
     //
     // Setup general data structure for determining which elements in the document to work with
     // Note that "tagInputID" attributes of the object contain a regular expression that is used
