@@ -42,8 +42,8 @@ if(typeof(dojo) != "undefined") {
             	//wait until the "loading..." node has been hidden, 
             	//indicating that we have loaded content
 			 alert("element "+ dojo.query(".lotusMeta"));
-                dojo.query(".lotusMeta")[4].textContent="This community can have members from outside your organization blah.";
-				dojo.query(".lotusMeta")[4].style="color:#6eff00";
+                dojo.query(".lotusMeta")[2].textContent="This community can have members from outside your organization blah.";
+				dojo.query(".lotusMeta")[2].style="color:#6eff00";
 
             }, "div[class='lotusMeta']");
 
