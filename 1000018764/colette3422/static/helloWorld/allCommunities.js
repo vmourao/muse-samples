@@ -45,8 +45,7 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
                 
             	//wait until the "loading..." node has been hidden, 
-            	//indicating that we have loaded content.
-                //more of your own customization code here please :-) 
+            	//indicating that we have loaded content. 
                 dojo.query(".lotusMeta")[4].textContent="This community can have members from outside your organization.";
 				dojo.query(".lotusMeta")[4].style="color:#6eff00";
 
