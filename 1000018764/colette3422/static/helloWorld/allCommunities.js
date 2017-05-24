@@ -28,6 +28,7 @@ if(typeof(dojo) != "undefined") {
         
         var waitInter = 0;  // current interval
         var intId = setInterval(function(){
+			console.log(!dojo.query(elXpath).length +" "+ waitInter + maxInter);
             if (++waitInter<maxInter && !dojo.query(elXpath).length) return;
             clearInterval(intId);
             callback();
@@ -40,7 +41,7 @@ if(typeof(dojo) != "undefined") {
                 
             	//wait until the "loading..." node has been hidden, 
             	//indicating that we have loaded content. 
-                dojo.query(".lotusMeta")[4].textContent="This community can have members from outside your organization.";
+                dojo.query(".lotusMeta")[4].textContent="This community can have members from outside your organization blah.";
 				dojo.query(".lotusMeta")[4].style="color:#6eff00";
 
             }, "div[class='lotusMeta']");
