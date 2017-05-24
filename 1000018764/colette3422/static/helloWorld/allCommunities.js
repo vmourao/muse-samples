@@ -49,7 +49,7 @@ if(typeof(dojo) != "undefined") {
                 dojo.query(".lotusMeta")[4].textContent="This community can have members from outside your organization.";
 				dojo.query(".lotusMeta")[4].style="color:#6eff00";
 
-            }, ".lotusMeta");
+            }, "tr a[class='lotusFirst'>]");
 
       } catch(e) {
           alert("Exception occurred in helloWorld: " + e);
