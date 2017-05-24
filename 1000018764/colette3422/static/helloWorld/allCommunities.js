@@ -47,8 +47,6 @@ if(typeof(dojo) != "undefined") {
             	//wait until the "loading..." node has been hidden, 
             	//indicating that we have loaded content.
                 //more of your own customization code here please :-) 
-            	//let's see what you come up with!! ...
-            	// example customization of the "Share something" title...
                 dojo.query(".lotusMeta")[4].textContent="This community can have members from outside your organization.";
 				dojo.query(".lotusMeta")[4].style="color:#6eff00";
 
