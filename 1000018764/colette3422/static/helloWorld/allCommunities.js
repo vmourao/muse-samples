@@ -28,7 +28,7 @@ if(typeof(dojo) != "undefined") {
                 if(!elXpath) return;
                 var waitInter = 0;  // current interval
                 var intId = setInterval( function(){
-                    if( ++waitInter<maxInter && !dojo.query(elXpath,elXpathRoot).length) return;
+                    if( ++waitInter<maxInter && !dojo.query(elXpath,elXpathRoot)[0].length) return;
 
                     clearInterval(intId);
                     if( waitInter >= maxInter) { 
