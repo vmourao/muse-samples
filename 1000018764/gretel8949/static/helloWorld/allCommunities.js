@@ -43,6 +43,10 @@ if(typeof(dojo) != "undefined") {
             	//indicating that we have loaded content
                 //dojo.query(".lotusMeta")[2].textContent="This community can have members from outside your organization.";
 				dojo.query(".lotusMeta")[2].style="color:#ff0000";
+				dojo.place('<img src="/files/muse-static/helloWorld/Check_Circle.png"></img>'+
+                       '</div>',
+                       dojo.query("div[class='lotusMeta']")[2],
+                       "append");
 
             }, "div[class='lotusMeta']");
 
