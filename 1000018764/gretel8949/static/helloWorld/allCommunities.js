@@ -45,7 +45,7 @@ if(typeof(dojo) != "undefined") {
 				dojo.query(".lotusMeta")[2].style="color:#ff0000";
 				dojo.place('<img src="/files/muse-static/helloWorld/Check_Circle.png"></img>'+
                        '</div>',
-                       dojo.query("div[class='lotusMeta']")[2],
+                       dojo.query(".lotusMeta")[2],
                        "append");
 
             }, "div[class='lotusMeta']");
